@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website w/ Background Video Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+        integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css"
+        integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <a href="" class="brand">Travel</a>
+        <div class="menu-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" fill="#fff" viewBox="0 0 448 512">
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
+        </div>
+        <nav class="navigation navigation-sm">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Explore</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="home">
+        <video class="video active" src="./videos/sea-waves.mp4" autoplay muted loop></video>
+        <video class="video" src="./videos/camping.mp4" autoplay muted loop></video>
+        <video class="video" src="./videos/off-road-bike.mp4" autoplay muted loop></video>
+        <video class="video" src="./videos/nature-waterfall.mp4" autoplay muted loop></video>
+
+        <div class="content active">
+            <h1>Wonderful.<br><span>Island</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quisquam modi corrupti ullam praesentium
+                quaerat necessitatibus nisi autem sed sequi consectetur molestias, veniam eveniet, ipsa nihil error
+                illo. Dolorem, magni.
+
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="content">
+            <h1>Camping.<br><span>Enjoy</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quisquam modi corrupti ullam praesentium
+                quaerat necessitatibus nisi autem sed sequi consectetur molestias, veniam eveniet, ipsa nihil error
+                illo. Dolorem, magni.
+
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="content">
+            <h1>Adventures.<br><span>Off Road</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quisquam modi corrupti ullam praesentium
+                quaerat necessitatibus nisi autem sed sequi consectetur molestias, veniam eveniet, ipsa nihil error
+                illo. Dolorem, magni.
+
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="content">
+            <h1>Feel Nature.<br><span>Relax</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quisquam modi corrupti ullam praesentium
+                quaerat necessitatibus nisi autem sed sequi consectetur molestias, veniam eveniet, ipsa nihil error
+                illo. Dolorem, magni.
+
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div class="media-icons">
+            <a href="#"> <i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+
+    </main>
+
+    <script src="script.js" type="text/javascript"> </script>
+</body>
+
+</html>
